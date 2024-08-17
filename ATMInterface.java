@@ -45,7 +45,7 @@ public class ATMInterface {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     // Accepting User's current account balance
-    System.out.println("Enter your Account Balance:");
+    System.out.println("Enter your current Account Balance:");
     UserAccount ob = new UserAccount(sc.nextDouble());
     boolean user = true;
 

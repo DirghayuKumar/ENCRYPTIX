@@ -29,7 +29,7 @@ public class NumberGame {
       while (strikes <= 3) {
         System.out.println("STRIKE : " + (strikes));
         System.out.println("Guess the number:");
-        // Player guesses the number
+        //  guesses the number
         int user_guess = sc.nextInt();
         strikes++;
         rounds++;
